@@ -38,6 +38,9 @@ RUN npm install
 # Copier tous les fichiers de l'application
 COPY . .
 
+# Build des assets frontend avec Vite
+RUN npm run build
+
 # Générer l'autoloader optimisé
 RUN composer dump-autoload --optimize
 
