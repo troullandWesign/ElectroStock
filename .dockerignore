@@ -1,0 +1,45 @@
+# Dépendances
+/node_modules
+/vendor
+
+# Environnement
+.env
+.env.backup
+.env.production
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Laravel
+/storage/*.key
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Tests
+/tests
+phpunit.xml
+.phpunit.result.cache
+
+# Docker
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Documentation
+README.md
